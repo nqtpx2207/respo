@@ -29,11 +29,10 @@ div {
     padding: 2px;
 }
 
-/* Query #1: Tablet View (772px) */
 @media screen and (min-width: 772px) {
     div {
+        width: 45vw;
         display: inline-block;
-        width: 45%;
     }
 
     img {
@@ -41,9 +40,8 @@ div {
     }
 }
 
-/* Query #2: Large Screen View (998px) */
 @media screen and (min-width: 998px) {
     div {
-        width: 30%;
+        width: 30vw;
     }
 }
